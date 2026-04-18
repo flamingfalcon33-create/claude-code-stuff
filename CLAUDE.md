@@ -6,7 +6,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 GitHub: https://github.com/flamingfalcon33-create/claude-code-stuff
 
-After every meaningful change, commit with a clean message and push to `origin main`.
+**Git workflow — required on every task:**
+- Commit and push to `origin main` after every meaningful unit of work (feature added, bug fixed, file created).
+- Never leave completed work uncommitted — each push is a save point we can revert to.
+- Commit messages must be clean and descriptive: imperative mood, short subject line (e.g. `Add AI opponent to tictactoe`), no filler.
+- Stage files specifically by name rather than `git add .`.
 
 ## Project Structure
 
